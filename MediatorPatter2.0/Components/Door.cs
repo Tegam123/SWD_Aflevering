@@ -6,8 +6,8 @@ namespace MediatorPatter2._0
 {
     public class Door : BaseComponent
     {
-        private bool IsLocked { get; set; }
-        private bool IsOpen { get; set; }
+        public bool IsLocked { get; set; }
+        public bool IsOpen { get; set; }
         public void OpenDoor()
         {
             if (IsLocked)

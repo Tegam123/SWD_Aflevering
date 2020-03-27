@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPatter2.0", "MediatorPatter2.0\MediatorPatter2.0.csproj", "{2CFBB669-1D21-42C3-B0C8-55AF1356B071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPatter2.0", "MediatorPatter2.0\MediatorPatter2.0.csproj", "{2CFBB669-1D21-42C3-B0C8-55AF1356B071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "..\MediatorPattern\MediatorPattern\MediatorPattern.csproj", "{CAF7EACE-FDC4-4B39-987A-A7D616BFC97F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2CFBB669-1D21-42C3-B0C8-55AF1356B071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFBB669-1D21-42C3-B0C8-55AF1356B071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFBB669-1D21-42C3-B0C8-55AF1356B071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF7EACE-FDC4-4B39-987A-A7D616BFC97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF7EACE-FDC4-4B39-987A-A7D616BFC97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF7EACE-FDC4-4B39-987A-A7D616BFC97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF7EACE-FDC4-4B39-987A-A7D616BFC97F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

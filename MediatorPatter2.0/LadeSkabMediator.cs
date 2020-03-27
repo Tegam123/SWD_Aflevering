@@ -37,19 +37,38 @@ namespace MediatorPatter2._0
 
             if (ev == "RFIDDetected")
             {
-                _door.
-                _door.LockDoor();
 
-                if (_charger.IsConnected)
+                if (_door.IsLocked)
                 {
-                    _charger.StartCharge();
-                    _display.print("Charge has been started");
+                    _charger.StopCharge();
+                    _door.UnLockDoor();
+                    
                 }
                 else
                 {
-                    _display.print("Phone not connected. No charge started");
+                    if (_door.IsOpen)
+                    {
+                        _display.print("Close the door & scan again");
+
+                    }
+                    else
+                    {
+                        _door.LockDoor();
+
+                        if (_charger.IsConnected)
+                        {
+                            _charger.StartCharge();
+                            _display.print("Charge has been started");
+                        }
+                        else
+                        {
+                            _display.print("Phone not connected. No charge started");
+                        }
+                    }
                 }
-                
+
+
+
             }
 
 
