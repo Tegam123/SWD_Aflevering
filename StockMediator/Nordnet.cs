@@ -4,9 +4,9 @@ using System.Text;
 
 namespace StockMediator
 {
-    public class SuperBuyer: BaseComponent
+    public class Nordnet: BaseComponent
     {
-        public SuperBuyer(IMediator mediator):base(mediator)
+        public Nordnet(IMediator mediator) : base(mediator)
         {
             
         }

@@ -17,8 +17,21 @@ namespace StockMediator
             this.usercode = usercode;
         }
 
-        public int StockShares { get; private set; }
-        public int UserCode { get; private set; }
-        public string StockName { get; private set; }
+        public int StockShares
+        {
+            get { return stockShares; }
+           
+        }
+
+        public int UserCode
+        {
+            get { return usercode; }
+         
+        }
+
+        public string StockName
+        {
+            get { return stockName; }
+        }
     }
 }

@@ -7,9 +7,9 @@ namespace StockMediator
 {
     public interface IMediator
     {
-        void saleOffer(string stock, int shares, int usercode);
-        void buyoffer(string stock, int shares, int usercode);
+        void SaleOffer(string stock, int shares, int usercode);
+        void BuyOffer(string stock, int shares, int usercode);
 
-        void addUser(BaseComponent user);
+        void AddUser(BaseComponent user);
     }
 }
